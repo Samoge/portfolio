@@ -1,0 +1,117 @@
+@media screen and (max-width: 700px) {
+
+    /* header section starts here */
+    .header-div{
+        padding: 0 5px;
+    }
+.header-contents{
+    padding: 180px 5px 100px 5px;
+}
+
+
+    .headerleft {
+        border: 2px solid tomato;
+        padding: 0 5px;
+        width: 100%;
+      }
+      .headerleft h1 {
+        font-size: 3.2rem;
+        line-height: 1;
+      }
+
+.headerright{
+    display: none;
+}
+
+    /* header section ends here */
+
+    /* portfolio section starts here */
+
+    .pt_left-div{
+        width: 100%;
+        flex-wrap: wrap;
+      
+      }
+
+    /* portfolio section ends here */
+
+/* Tools & Experience starts here */
+.te_right-div{
+    display: none;
+}
+
+.tools-experience{
+    flex-direction: column;
+}
+.te_left-div{
+    flex-direction: column;
+}
+
+.te_left-div_container{
+    flex-direction: column;
+}
+
+.te_sub_right-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.skill-set{
+    padding: 5px 0;
+    margin: 0 10px;
+}
+
+.yearexperience h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.year{
+    margin-right: 60px;
+}
+
+.company-role p{
+    font-size: small;
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+/* Tools & Experience ends here */
+
+/* connect section starts here */
+.message-fast{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.left-div{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.right-div{
+    padding: 10px 10px;
+    width: 100%;
+}
+
+
+/* connect section ends here */
+
+    /* footer section starts here */
+    .footer-contents{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.footer_icons-holder{
+    margin: 5px 0;
+}
+
+    /* footer section ends here */
+    
+}
