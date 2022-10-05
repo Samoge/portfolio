@@ -442,7 +442,7 @@ width: 350px;
   min-width: 325px;
   padding: 20px;
   transition: all .5s ease;
-margin: 10px;
+margin: 15px;
 }
 
 .service-intro button{
@@ -464,6 +464,7 @@ margin-top: 30px;
   padding: 20px;
   position: relative;
   margin: 15px;
+  transition:all 2s ease-in-out;
 }
 
 .app__profile-item .services-Imgholder {
@@ -497,6 +498,8 @@ margin-top: 30px;
 .app__profile-item:hover {
   border: none;
   cursor: pointer;
+  height: 200px;
+  width: 350px;
   /* color: white; */
 }
 
@@ -535,12 +538,14 @@ margin-top: 30px;
 
 .app__profile-item:hover .p-text{
   color: var(--white-color);
-  z-index: 20;
+  z-index: 7;
+  font-size: 1rem;
 }
 
 .app__profile-item:hover .bold-text{
   color: var(--white-color);
-  z-index: 20;
+  z-index: 7;
+  font-size: 1.5rem;
 }
 
 
