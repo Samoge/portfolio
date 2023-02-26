@@ -17,3 +17,8 @@ ScrollReveal({
     delay: 100,
     origin: "top-right",
   });
+
+  ScrollReveal().reveal(".every", {
+    delay: 150,
+    origin: "bottom",
+  });
